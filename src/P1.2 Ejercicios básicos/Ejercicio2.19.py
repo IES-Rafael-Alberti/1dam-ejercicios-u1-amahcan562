@@ -1,0 +1,1 @@
+nusuario = input("Introduzca nombre de usuario.")
