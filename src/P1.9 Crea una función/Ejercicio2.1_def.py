@@ -1,8 +1,8 @@
+def nombre(nom):
+    return nom
+
 nom = input("Escribe tu nombre: ")
 
-def nombre():
-    return "Hola, " + nom + "."
-
-print(nombre())
+print("Su nombre es " + str(nombre(nom)) + ".")
 
 

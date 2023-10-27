@@ -1,3 +1,7 @@
-preciosiniva = float(input("Especifique el precio sin iva:"))
-preciofinal = preciosiniva * 21 / 100 + preciosiniva
-print("El resultado es",preciofinal,"€")
+def importe(preciosiniva, iva):
+    preciofinal = preciosiniva * iva
+    print("El resultado es", importe(precionoiva, tipoiva), "€")
+    return preciofinal
+
+precionoiva = float(input("Especifique el precio sin IVA: "))
+tipoiva = int(input("Escribe el porcentaje de IVA: "))
